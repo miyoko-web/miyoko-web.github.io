@@ -7,11 +7,13 @@ body {
 }
 
 h1 {
+  font-size: 2.2em;
   color: #2c3e50;
   margin-top: 30px;
 }
 
 p {
+  font-size: 1.2em;
   color: #555;
   font-size: 18px;
 }
@@ -57,9 +59,15 @@ img {
 .img-cookie:hover {
   transform: translateY(-2px);
 }
+.image-container img {
+  max-width: 100%;
+  height: auto;
+}
+
 @media (max-width: 480px) {
   .row { gap: 12px; }
 }
+
 
 
 
