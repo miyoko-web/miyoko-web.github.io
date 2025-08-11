@@ -7,13 +7,13 @@ body {
 }
 
 h1 {
-  font-size: 2.2em;
+  font-size: 3.0em;
   color: #2c3e50;
   margin-top: 30px;
 }
 
 p {
-  font-size: 1.2em;
+  font-size: 2.0em;
   color: #555;
   font-size: 18px;
 }
@@ -67,6 +67,7 @@ img {
 @media (max-width: 480px) {
   .row { gap: 12px; }
 }
+
 
 
 
