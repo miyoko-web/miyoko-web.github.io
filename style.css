@@ -25,6 +25,39 @@ img {
   width: 150px;
   height: auto;
 }
+.row {
+  disprlay: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-top: 16px;
+}
+.img-olu,
+.img-cookie {
+  max-width: none;
+  width: auto;
+}
+.img-olu {
+  height: clamp(120px, 28vw, 220px);
+}
+.img-cookie {
+  height: clamp(100px, 22vw, 180px);
+}
+.img-olu,
+.img-cookie {
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, .08);
+  transition: transform .2s ease;
+}
+.img-olu:hover,
+.img-cookie:hover {
+  transform: translateY(-2px);
+}
+@media (max-width: 480px) {
+  .row { gap: 12px; }
+}
+
 
 
 
