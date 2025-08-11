@@ -15,6 +15,9 @@ p {
   color: #555;
   font-size: 18px;
 }
+body {
+  background-color: #fef4f4;
+}
 
 img {
   max-width: 300px;
@@ -57,6 +60,7 @@ img {
 @media (max-width: 480px) {
   .row { gap: 12px; }
 }
+
 
 
 
